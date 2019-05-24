@@ -1,0 +1,36 @@
+{
+    "name": "test level",
+    "description": "",
+    "particleCount": 10,
+    "bot": {
+        "mass": 5,
+        "positionFixed": true,
+        "chargeFixed": false,
+        "position": {
+            "x": 600,
+            "y": 400
+        },
+        "lockedToPositive": true
+    },
+    "goal": {
+        "position": {
+            "x": 50,
+            "y": 50
+        },
+        "size": 30
+    },
+    "providedParticles": [
+        {
+            "charge": 1,
+            "mass": 1,
+            "kinematic": true,
+            "positionFixed": true,
+            "chargeFixed": true,
+            "position": {
+                "x": 320,
+                "y": 240
+            }
+        }
+    ],
+    "allowsBotControl": false
+}
