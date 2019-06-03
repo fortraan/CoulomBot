@@ -1,0 +1,36 @@
+{
+    "name": "Basic Level 1",
+    "description": "Welcome to CoulomBot. You want to get the 'bot (the grey hexagon) to the goal (the green hexagon). To do so, you can manipulate the electrical charges of various objects in the game world - namely, particles and the bot. To pass this level, press SPACE in the Editor to switch to Simulation. Press ] until the speed readout in the top left corner says \"Current Speed: 10.0000%\". Press d and wait until the bot gets close to the red dot. Then, press s.",
+    "particleCount": 10,
+    "bot": {
+        "mass": 5,
+        "positionFixed": true,
+        "chargeFixed": true,
+        "maxCharge": 0.2,
+        "position": {
+            "x": 600,
+            "y": 400
+        }
+    },
+    "goal": {
+        "position": {
+            "x": 50,
+            "y": 50
+        },
+        "size": 30
+    },
+    "providedParticles": [
+        {
+            "charge": 1,
+            "mass": 1,
+            "kinematic": true,
+            "positionFixed": true,
+            "chargeFixed": true,
+            "position": {
+                "x": 320,
+                "y": 240
+            }
+        }
+    ],
+    "allowsBotControl": true
+}

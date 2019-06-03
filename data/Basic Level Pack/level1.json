@@ -1,21 +1,20 @@
 {
-    "name": "test level",
-    "description": "",
+    "name": "Basic Level 2",
+    "description": "Good!",
     "particleCount": 10,
     "bot": {
         "mass": 5,
         "positionFixed": true,
         "chargeFixed": false,
         "position": {
-            "x": 600,
-            "y": 400
-        },
-        "lockedToPositive": true
+            "x": 50,
+            "y": 50
+        }
     },
     "goal": {
         "position": {
-            "x": 50,
-            "y": 50
+            "x": 600,
+            "y": 400
         },
         "size": 30
     },
@@ -32,5 +31,5 @@
             }
         }
     ],
-    "allowsBotControl": false
+    "allowsBotControl": true
 }
